@@ -1,0 +1,26 @@
+## Course stage / unit
+**Stage 3 — Networking**  
+**Owner:** Member B (replace with real GitHub assignee)  
+**Required reviewer:** Member C (different account)  
+**Lead responsibility this stage:** Backend & Data  
+**Suggested branch:** `stage/03-b-build-concurrent-tcp-gateway-and-udp-notifications`
+
+## Files to work on
+`network-gateway/src/main/java/zm/edu/scasp/{GatewayServer,CampusNotificationSender,UdpHeartbeat}.java`
+
+## Work to perform
+**Build concurrent TCP gateway and UDP notifications**. Review and develop the implementation. If the supplied AI-assisted reference already contains some of this functionality, make a genuine change, verify it, explain your design and record the tested result. Never create empty or fake commits solely for attribution.
+
+## Acceptance criteria
+- [ ] Multi-client server, Socket/ServerSocket, DatagramSocket, try-with-resources, safe client shutdown, InetAddress output.
+- [ ] Actual source, tests or documentation updated by assigned contributor.
+- [ ] `mvn clean verify` passes, or explain exactly why and include appropriate Android/Payara/manual test evidence.
+- [ ] Pull request links this issue, names a different reviewer, and updates `docs/contribution-log.csv`.
+- [ ] Changes reviewed and merged to `main` only after meeting acceptance criteria.
+
+## Example commit messages (use only when changes match)
+- `feat(network): serve concurrent TCP clients`
+- `feat(network): send UDP heartbeat notifications`
+
+## Assignment evidence
+Attach meaningful screenshots, logs or code explanations and include their real timestamps, commit SHAs and PR links. Stage releases are tagged only when actually completed.

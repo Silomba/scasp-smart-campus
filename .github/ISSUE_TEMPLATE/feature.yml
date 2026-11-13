@@ -1,0 +1,23 @@
+name: "Course feature / implementation"
+description: "Implement, test, or improve a SCASP stage requirement"
+title: "[Stage X] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What must change?
+      description: Link the stage requirement and actual source files.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and evidence
+      description: Include tests, error cases and review requirements.
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Different group-member reviewer
